@@ -1,0 +1,5 @@
+print("Enter your city name ")
+city_name= input()
+print("Enter your pet name")
+pet_name=input()
+print(city_name,pet_name)
