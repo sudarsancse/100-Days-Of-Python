@@ -17,6 +17,7 @@ guessed_state = []
 while len(guessed_state) < 50:
     answer_state = screen.textinput(title=f"{len(guessed_state)}/50 Guess the state" , prompt="What's another states's name").title()
     if answer_state == "Exit":
+        
         ## list comprehenstion
         states_to_know =[state for state in all_states if state not in guessed_state]
         state_name = pandas.DataFrame(states_to_know)
