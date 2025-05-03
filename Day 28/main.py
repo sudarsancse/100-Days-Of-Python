@@ -39,7 +39,6 @@ def start_timer():
         count_down(work_sec)
         text_label.config(text= "Work") 
 
-
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
     count_min =math.floor(count / 60)
@@ -57,8 +56,6 @@ def count_down(count):
         for _ in range(work_station):
             marks += "✔️"
         tick.config(text=marks)
-
-
 
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
